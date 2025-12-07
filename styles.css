@@ -1,0 +1,38 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0%;
+}
+
+body {
+  background-color: rgba(0, 255, 42, 0.693);
+  font: #fffb01;
+}
+
+.container {
+  font: #fffb01;
+  padding: 50px 30px 30px 30px;
+  align-content: center;
+  margin: 50px;
+  border: solid rgb(0, 0, 0) 1px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btn-success,
+.btn-danger {
+  font: #fffb01;
+  width: 200px;
+  padding: 50px 50px 50px 50px;
+  margin: 50px;
+  border: solid rgb(255, 0, 0) 1px;
+  border-radius: 50px;
+  text-align: center;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.btn-success :active {
+  opacity: 1;
+  transform: scale(5);
+}
